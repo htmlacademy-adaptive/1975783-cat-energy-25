@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Интернет-магазин Кэт Энерджи</title>
-</head>
-<body class="page__body">
-  <header class="main-header">
-    <a class="main-header__logo-mobile" href="">
-      <img src="img/logo-mobile.png" width="33" height="38" alt="Логотип Кэт Энерджи.">
-    </a>
-    <a class="main-header__main-logo main-logo" href="">
-      <img src="img/logo-2.svg" width="101" height="18" alt="Основной логотип Кэт Энерджи.">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Кэт энерджи</title>
+  </head>
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo--mobile">
+        <img src="img/logo-mobile.png" width="33" height="38" alt="Логотип Кэт Энерджи">
+      </a>
+      <a class="main-header__main-logo main-logo" href="">
+        <img src="img/logo-2.svg" width="101" height="18" alt="Основной логотип Кэт Энерджи">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню.</span>
+        <span class="visually-hidden">Открыть меню</span>
       </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item">
-            <a class="site-list__link" href="">
-              Главная
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a class="site-list__link" href="">
-              Каталог продукции
-            </a>
-          </li>
-          <li class="site-list__item site-list__item--active">
-            <a class="site-list__link" href="">
-              Подбор программы
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item site-list__item--active">
+          <a class="site-list__link" href="index.html">
+            Главная
+          </a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="catalog.html">
+            Каталог продукции
+          </a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link">
+          Подбор программы
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
   <main class="main-container">
     <section class="programm-form">
       <h1 class="main__title">Подбор программы</h1>
@@ -136,47 +134,42 @@
       </form>
     </section>
     <section class="contacts">
-      <div class="contacts__wrapper">
-        <h2 class="visually-hidden">Наши контакты</h2>
-        <p class="contacts__invite">Приглашаем к сотрудничеству дилеров!</p>
-        <address class="contacts__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
-        <div class="contacts__map"></div>
-      </div>
+      <h2 class="visually-hidden">Наши контакты</h2>
+      <p class="contacts__invite">приглашаем к сотрудничеству дилеров!</p>
+      <address class="contacts__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+      <div class="contacts__map"></div>
     </section>
   </main>
   <footer class="main-footer">
     <div class="main-footer__logo">
       <a class="footer-container__main-logo main-logo" href="">
-        <img src="img/logo-2.svg" width="101" height="18" alt="Основной логотип Кэт Энерджи.">
+        <img src="img/logo-2.svg" width="101" height="18" alt="Основной логотип Кэт Энерджи">
       </a>
     </div>
     <ul class="footer-container__list">
       <li class="footer-container__item">
         <a class="footer-container__link" href="https://vk.com/htmlacademy">
-          <img src="img/vkontakte.svg" width="28" height="22" alt="Иконка социальной сети вконтакте.">
-        </a>
-      </li>
-      <li class="footer-container__item">
-        <a class="footer-container__link" href="https://www.youtube.com/user/htmlacademyru">
-          <img src="img/youtube.svg" width="28" height="22" alt="Иконка социальной сети ютуб.">
-        </a>
-      </li>
-      <li class="footer-container__item">
-        <a class="footer-container__link" href="https://t.me/htmlacademy">
-          <img src="img/telegram.svg" width="28" height="22" alt="Иконка социальной сети телеграм.">
-        </a>
-      </li>
-    </ul>
-    <ul class="footer-container__copyright-list">
-      <li class="footer-container__copyright-item">
-        <a class="footer-container__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-      </li>
-      <li class="footer-container__copyright-item">
-        <a class="footer-container__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
-          <img src="img/htmlacademy.svg" width="27" height="34" alt="логотип htmlacademy.">
-        </a>
-      </li>
-    </ul>
-  </footer>
+          <img src="img/vkontakte.svg" width="28" height="22" alt="Иконка социальной сети вконтакте">
+      </a>
+    </li>
+    <li class="footer-container__item">
+      <a class="footer-container__link" href="https://www.youtube.com/user/htmlacademyru">
+        <img src="img/youtube.svg" width="28" height="22" alt="Иконка социальной сети ютуб">
+      </a>
+    </li>
+    <li class="footer-container__item">
+      <a class="footer-container__link" href="https://t.me/htmlacademy">
+        <img src="img/telegram.svg" width="28" height="22" alt="Иконка социальной сети телеграм">
+      </a>
+    </li>
+  </ul>
+  <div class="footer-container__copyright copyright">
+    <b class="copyright__text">HTML Academy</b>
+    <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+      <img src="img/htmlacademy.svg" width="27" height="34" alt="логотип htmlacademy">
+    </a>
+  </div>
+</footer>
 </body>
 </html>
+
